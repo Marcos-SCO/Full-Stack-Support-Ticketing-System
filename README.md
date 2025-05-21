@@ -1,7 +1,7 @@
 # Full-Stack-Support-Ticketing-System
 Full Stack Support Ticketing System - NextJS + Postgres and Error Monitoring
 
-## Commands 
+# Commands that i used
 
 ```bash
 npx create-next-app@latest quick-ticket
@@ -17,4 +17,23 @@ npm i prisma @prisma/client react-icons
 
 ```bash
 npx @sentry/wizard@latest -i nextjs --saas --org sco-qn --project javascript-nextjs
+```
+
+## Prisma
+
+```bash
+npx prisma init
+```
+### General prisma commands used
+
+```bash
+npx prisma migrate dev --name init
+```
+
+```bash
+npx prisma generate
+```
+
+```bash
+npx prisma studio
 ```
