@@ -37,3 +37,8 @@ npx prisma generate
 ```bash
 npx prisma studio
 ```
+
+### Generate a key to AUTH_SECRET variable
+```bash
+openssl rand -base64 32
+```
