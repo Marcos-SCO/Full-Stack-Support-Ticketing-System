@@ -1,6 +1,12 @@
 # Full-Stack-Support-Ticketing-System
 Full Stack Support Ticketing System - NextJS + Postgres and Error Monitoring
 
+# Services used
+- Sentry (Application logs)
+- Neon (database)
+- Next.js 15.3.2
+- Vercel (Hosting)
+
 # Commands that i used
 
 ```bash
