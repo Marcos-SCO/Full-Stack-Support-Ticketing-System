@@ -22,7 +22,7 @@ const LoginForm = () => {
       return;
     }
 
-    toast.error(state.message);
+    if (state.message) toast.error(state.message);
   }, [state, router]);
 
   return (
